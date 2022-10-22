@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.card {
+    display: flex;  
+  /* display: flex; */
+  font-size: 17px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+/* h1 {
+  text-align: center;
+} */
+.fav {
+  font-size: 17px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  background-color: rgb(125, 216, 137);
+  padding: 10px;
+}
+
+.hobby {
+  border-radius: 10px;
+  background-color: rgb(156, 220, 245);
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.hobby ol {
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.hobby h3 {
+  padding-left: 10px;
+  /* margin-bottom: 10px; */
+  margin: 0;
+}
+.hobby ol li {
+  margin-bottom: 5px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+}
+img {
+  display: block;
+  border-radius: 25px;
+  box-shadow: 4px 4px 14px rgba(red, green, blue, 0.25);
+  width: 170px;
+  height: 300px;
+  /* margin-left: 42%; */
+}
+.table {
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  background-color: bisque;
+
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.table td {
+  padding-bottom: 8px;
+}
+.table td:nth-child(2) {
+  color: rgb(228, 170, 98);
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+.social {
+  background-color: rgb(231, 219, 219);
+  padding: 0px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.social h4 {
+  margin-bottom: 8px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.social a {
+  padding: 10px;
+}
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border: 4px solid rgb(231, 219, 219);
+  cursor: pointer;
+}
+.btn:hover {
+  color: orange;
+}
+a {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  color: red;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+.form-row .form-group {
+  /* display: flex; */
+  color: black;
+  /* width: 48%; */
+  margin-right: 20px;
+  width: 50%;
+  /* width: calc(50% - 20px); */
+}
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+.form-group label {
+  display: block;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding: 10px 0px 10px 0;
+  font-family: inherit;
+}
+@media (max_width: 650px) {
+  .card {
+    display: block;
+    text-align: center;
+    
+    font-size: 8px;
+  }
+}
+
+
